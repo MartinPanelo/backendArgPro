@@ -22,7 +22,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 
 @RestController
 @RequestMapping("acerca")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://frontendargpro.web.app")
 public class ControllerAcerca {
 
     @Autowired
